@@ -6,7 +6,8 @@
   "scripts": {
     "webpack": "webpack -p",
     "dev": "node .",
-    "start": "yarn webpack & node ."
+    "start": "yarn webpack & node .",
+    "lint": "eslint ./src"
   },
   "author": "Dan Radenkovic",
   "license": "ISC",
