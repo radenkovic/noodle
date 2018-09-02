@@ -1,0 +1,31 @@
+{
+  "name": "express-ab",
+  "version": "1.0.0",
+  "description": "Express landing page framework",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack -p",
+    "dev": "node .",
+    "start": "yarn webpack & node ."
+  },
+  "author": "Dan Radenkovic",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-nunjucks": "^2.2.3",
+    "node-sass-middleware": "^0.11.0",
+    "nunjucks": "^3.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.14.2",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-middleware": "^3.2.0"
+  }
+}
